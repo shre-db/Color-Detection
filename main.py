@@ -4,7 +4,7 @@ from utils import get_limits
 
 cap = cv.VideoCapture(0)
 
-color = [255, 0, 0]  # Black in BGR colorspace
+color = [255, 0, 0]  # Blue in BGR colorspace
 
 while True:
     ret, frame = cap.read()
