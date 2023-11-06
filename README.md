@@ -35,3 +35,8 @@ python color_detection.py
 
 ## Color Detection Algorithm
 The core of the color detection algorithm is to convert the captured frame from the camera into the HSV (Hue, Saturation, Value) color space. The `get_limits` function calculates the lower and upper HSV limits based on the provided BGR color. The script then creates a mask to identify pixels within this color range and overlays a green rectangle on the detected area.
+
+## LICENSE
+This project is open-source and available under the [MIT License](LICENSE).
+
+Feel free to modify and expand upon this project to suit your specific needs. If you encounter any issues or have suggestions for improvement, please open an issue or submit a pull request on the project's GitHub repository.
